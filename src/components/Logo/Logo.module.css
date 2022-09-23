@@ -1,0 +1,47 @@
+#logo {
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: inline-block;
+    width: 183px;
+    text-align: center;
+}
+
+#qr {
+    transition: .2s;
+    position: relative;
+}
+
+#logo:hover #qr {
+    transform: rotate(45deg);
+    top: -5px;
+}
+
+@media screen and (max-width: 750px) {
+
+    #logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+}
+
+/*noinspection DuplicatedCode*/
+@media screen and (max-width: 550px) {
+
+    #logo, #artar {
+        width: 100px;
+    }
+
+    #logo {
+        margin-top: 5px;
+        margin-left: 5px;
+
+        height: 39px;
+    }
+
+    #artar, #qr {
+        height: 20px;
+    }
+
+}

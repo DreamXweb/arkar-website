@@ -1,0 +1,111 @@
+#header-right {
+    float: right;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 85px;
+    margin-top: 41px;
+}
+
+#registration {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 40px;
+    border: 1px solid white;
+    width: 190px;
+    height: 60px;
+    margin-right: 58px;
+    text-align: center;
+    vertical-align: middle;
+    transition: .2s;
+}
+
+#registration span {
+    margin-top: 18px;
+    display: inline-block;
+}
+
+#registration:hover {
+    border-width: 3px;
+    width: 186px;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#menu-button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#menu-button span {
+    position: relative;
+    top: -5px;
+}
+
+#hamburger {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 1px;
+}
+
+.line.middle {
+    width: 15px;
+    margin-left: 15px;
+    transition: .2s;
+}
+
+#menu-button:hover .line.middle {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 750px) {
+
+    #header-right {
+        margin-right: 20px;
+        margin-top: 21px;
+    }
+
+    #registration {
+        margin-right: 10px;
+    }
+
+}
+
+/*noinspection DuplicatedCode*/
+@media screen and (max-width: 550px) {
+
+    #header-right {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    #registration {
+        margin-top: -10px;
+        margin-right: 5px;
+        height: 21px;
+        width: 113px;
+    }
+
+    #registration span {
+        margin-top: 0;
+        position: relative;
+    }
+
+    #registration:hover {
+        border-width: 2px;
+        width: 109px;
+        height: 17px;
+    }
+
+    #registration:hover span {
+        top: -2px;
+    }
+
+}
