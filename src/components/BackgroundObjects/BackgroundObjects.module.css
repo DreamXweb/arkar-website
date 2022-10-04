@@ -1,0 +1,43 @@
+@keyframes fly {
+    0%, 100% {
+        top: 20px;
+    }
+    50% {
+        top: 0;
+    }
+}
+
+#background-objects {
+    position: absolute;
+}
+
+#background-objects-container-2 {
+    animation: fly 2s infinite;
+}
+
+#background-objects-container-3 {
+    animation: fly 3s infinite;
+}
+
+{/* TODO other containers with other speeds. Styled components. Variable -> speed */}
+
+#cube_side_1 {
+    top: 334px;
+    left: 1123px;
+}
+
+#cube_side_2 {
+    top: 219px;
+    left: 1019px;
+}
+
+#cube_side_3 {
+    top: 334px;
+    left: 851px;
+}
+
+#light_1 {
+    top: 226px;
+    left: 1356px;
+}
+

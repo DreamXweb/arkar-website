@@ -1,6 +1,6 @@
-#content {
+#content, #options {
     margin-left: 80px;
-    max-width: 800px
+    max-width: 840px
 }
 
 #content p {

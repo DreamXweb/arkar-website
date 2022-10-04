@@ -1,0 +1,51 @@
+#option {
+    width: 371px;
+    height: 235px;
+    display: inline-block;
+    margin-right: 44px;
+    margin-bottom: 41px;
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    vertical-align: top;
+    cursor: pointer;
+    transition: .2s;
+    border: 0 solid white;
+}
+
+#option:hover {
+    border-width: 2px;
+    height: 231px;
+    width: 367px;
+}
+
+#text {
+    position: relative;
+    top: -10px;
+    left: 15px;
+}
+
+#text span {
+    font-family: 'Grotictitulshhv', system-ui;
+    font-size: 33px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#text p {
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 164px;
+    top: -5px;
+    left: 10px;
+    font-weight: 600;
+}
+
+#img {
+    margin-top: 8px;
+    position: relative;
+}

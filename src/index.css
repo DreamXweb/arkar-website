@@ -1,14 +1,26 @@
 @font-face {
-  font-family: 'Montserrat';
-  src: url("./assets/font/Montserrat-Regular.ttf");
+    font-family: 'Montserrat';
+    src: url("./assets/font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Grotictitulshhv';
+    src: url("./assets/font/Grotictitulshhv.ttf");
 }
 
 html {
-  min-width: 350px;
-  user-select: none;
+    min-width: 350px;
+    user-select: none;
+    overflow-x: hidden;
 }
 
 body {
-  background: linear-gradient(252.44deg, #6A3EC9 0%, #8658EA 100%);
-  font-family: 'Montserrat', system-ui;
+    background: linear-gradient(252.44deg, #6A3EC9 0%, #8658EA 100%);
+    font-family: 'Montserrat', system-ui;
 }
+
+.relative {
+    position: relative;
+}
+
+{/* TODO styles for BIG screens (over 5000 px width) */}
